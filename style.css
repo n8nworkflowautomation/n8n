@@ -35,7 +35,7 @@ header, footer {
 .language-switcher {
   position: absolute;      /* o fixed si quieres que siempre esté visible */
   top: 1rem;
-  left: 50%;               /* posiciona el centro del bloque */
+  left: 40%;               /* posiciona el centro del bloque */
   transform: translateX(-50%); /* compensa para que esté centrado */
   display: flex;
   gap: 0.5rem;
