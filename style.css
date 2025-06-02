@@ -31,6 +31,33 @@ header, footer {
   padding: 1.5rem 0;
   transition: background 0.3s;
 }
+/* Estos estilos son solo para los botones de internacionalizacion */
+.language-switcher {
+  position: absolute;      /* o fixed si quieres que siempre esté visible */
+  top: 1rem;
+  left: 50%;               /* posiciona el centro del bloque */
+  transform: translateX(-50%); /* compensa para que esté centrado */
+  display: flex;
+  gap: 0.5rem;
+  z-index: 1000;
+}
+
+.flag-button img {
+  width: 42px;
+  height: 30px;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.flag-button:hover img {
+  transform: scale(1.15);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+/* Hasta aca los estilos de internacionalizacion */
+
+
 nav {
   display: flex;
   flex-wrap: wrap;
