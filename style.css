@@ -33,13 +33,17 @@ header, footer {
 }
 /* Estos estilos son solo para los botones de internacionalizacion */
 .language-switcher {
-  position: absolute;      /* o fixed si quieres que siempre esté visible */
-  top: 1rem;
-  left: 40%;               /* posiciona el centro del bloque */
-  transform: translateX(-50%); /* compensa para que esté centrado */
-  display: flex;
+  position: absolute;
+  /*ofixedsiquieresquesiempreestévisible*/top: 1rem;
+  left: 40%;
+  /*posicionaelcentrodelbloque*/transform: translateX(-60%);
+  /*compensaparaqueestécentrado*/display: flex;
   gap: 0.5rem;
   z-index: 1000;
+  -webkit-transform: translateX(-60%);
+  -moz-transform: translateX(-60%);
+  -ms-transform: translateX(-60%);
+  -o-transform: translateX(-60%);
 }
 
 .flag-button img {
