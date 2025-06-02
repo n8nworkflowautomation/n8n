@@ -101,10 +101,22 @@ button[type="submit"] {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-decoration: none;
   color: inherit;
+  -webkit-transition: transform 0.3s ease, box-shadow 0.3s ease;
+  -moz-transition: transform 0.3s ease, box-shadow 0.3s ease;
+  -ms-transition: transform 0.3s ease, box-shadow 0.3s ease;
+  -o-transition: transform 0.3s ease, box-shadow 0.3s ease;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
 }
 .project-card:hover {
   transform: scale(1.02);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  -o-transform: scale(1.02);
 }
 .project-card h3 {
   margin-top: 0;
@@ -118,10 +130,22 @@ button[type="submit"] {
   margin: 5px 0;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  -webkit-transition: transform 0.3s ease, box-shadow 0.3s ease;
+  -moz-transition: transform 0.3s ease, box-shadow 0.3s ease;
+  -ms-transition: transform 0.3s ease, box-shadow 0.3s ease;
+  -o-transition: transform 0.3s ease, box-shadow 0.3s ease;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
 }
 .testimonial-card:hover {
   transform: scale(1.01);
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  -webkit-transform: scale(1.01);
+  -moz-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  -o-transform: scale(1.01);
 }
 
 .carousel {
@@ -139,10 +163,18 @@ button[type="submit"] {
   cursor: pointer;
   transition: transform 0.3s;
   border: 2px solid transparent;
+  -webkit-transition: transform 0.3s;
+  -moz-transition: transform 0.3s;
+  -ms-transition: transform 0.3s;
+  -o-transition: transform 0.3s;
 }
 .thumbnail:hover {
   transform: scale(1.05);
   border-color: #00ffff;
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
 }
 .overlay {
   position: fixed;
@@ -200,6 +232,10 @@ body.no-scroll {
   padding: 0.5rem 1rem;
   z-index: 10001;
   border-radius: 8px;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
 }
 .prev-btn { left: 1rem; }
 .next-btn { right: 1rem; }
@@ -244,6 +280,10 @@ nav {
   gap: 1.5rem;
   transition: right 0.3s ease-in-out;
   z-index: 9998;
+  -webkit-transition: right 0.3s ease-in-out;
+  -moz-transition: right 0.3s ease-in-out;
+  -ms-transition: right 0.3s ease-in-out;
+  -o-transition: right 0.3s ease-in-out;
 }
 
 
@@ -283,6 +323,10 @@ nav {
   gap: 1.5rem;
   transition: right 0.3s ease-in-out;
   z-index: 9998;
+  -webkit-transition: right 0.3s ease-in-out;
+  -moz-transition: right 0.3s ease-in-out;
+  -ms-transition: right 0.3s ease-in-out;
+  -o-transition: right 0.3s ease-in-out;
 }
 .hero-slogan {
   font-family: 'Poppins', sans-serif;
@@ -324,6 +368,10 @@ nav {
   height: auto;
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
 }
 
 @media (max-width: 768px) {
@@ -347,6 +395,14 @@ nav {
   flex-direction: column;
   gap: 1rem;
   transition: box-shadow 0.3s ease;
+  -webkit-transition: box-shadow 0.3s ease;
+  -moz-transition: box-shadow 0.3s ease;
+  -ms-transition: box-shadow 0.3s ease;
+  -o-transition: box-shadow 0.3s ease;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
 }
 
 .testimonial-card:hover {
@@ -375,7 +431,7 @@ nav {
   object-fit: cover;
   margin: 5px;
   padding: 10px;
-  align: center;
+  text-align: center;
   color: white;
   text-align: center
 }
