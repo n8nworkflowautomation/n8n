@@ -117,11 +117,11 @@ button[type="submit"] {
   z-index: 1000;
 }
 .project-card {
-  background: #f0f0f0;
+  background: #f3f3cc;
   display: block;
   padding: 1.5rem;
   border-radius: 12px;
-  margin: 5px 0;
+  margin: 20px 0;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-decoration: none;
@@ -142,6 +142,7 @@ button[type="submit"] {
   -moz-transform: scale(1.02);
   -ms-transform: scale(1.02);
   -o-transform: scale(1.02);
+  background-color: #f9f9f9;
 }
 .project-card h3 {
   margin-top: 0;
@@ -150,7 +151,7 @@ button[type="submit"] {
   background: #e6f0ff;
   padding: 1.5rem;
   border-radius: 12px;
-  margin: 5px 0;
+  margin: 15px 0;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   -webkit-transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -192,7 +193,7 @@ button[type="submit"] {
 }
 .thumbnail:hover {
   transform: scale(1.05);
-  border-color: #00ffff;
+  border-color: #eff77c;
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
   -ms-transform: scale(1.05);
