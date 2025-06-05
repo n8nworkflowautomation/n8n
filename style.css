@@ -45,7 +45,6 @@ header, footer {
   -ms-transform: translateX(-60%);
   -o-transform: translateX(-60%);
 }
-
 .flag-button img {
   width: 37px;
   height: 25px;
@@ -54,14 +53,11 @@ header, footer {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
 }
-
 .flag-button:hover img {
   transform: scale(1.15);
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
 /* Hasta aca los estilos de internacionalizacion */
-
-
 nav {
   display: flex;
   flex-wrap: wrap;
@@ -120,8 +116,6 @@ button[type="submit"] {
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
   z-index: 1000;
 }
-
-
 .project-card {
   background: #f0f0f0;
   display: block;
@@ -152,8 +146,6 @@ button[type="submit"] {
 .project-card h3 {
   margin-top: 0;
 }
-
-
 .testimonial-card {
   background: #e6f0ff;
   padding: 1.5rem;
@@ -178,7 +170,6 @@ button[type="submit"] {
   -ms-transform: scale(1.01);
   -o-transform: scale(1.01);
 }
-
 .carousel {
   display: flex;
   overflow-x: auto;
@@ -240,7 +231,6 @@ button[type="submit"] {
 .close-btn:hover {
   background: #ff0000;
 }
-
 body.no-scroll {
   overflow: hidden;
 }
@@ -249,8 +239,6 @@ body.no-scroll {
   inset: 0;
   z-index: 9999;
 }
-
-
 .nav-btn {
   position: absolute;
   top: 50%;
@@ -273,7 +261,6 @@ body.no-scroll {
 .nav-btn:hover {
   background: rgba(255, 255, 255, 0.4);
 }
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -281,9 +268,23 @@ nav {
   flex-wrap: nowrap;
   position: relative;
 }
-
-
 .menu-toggle {
+  display: flex;
+  position: fixed;
+  top: 1.5rem;
+  right: 1.5rem;
+  z-index: 9999;
+  background: #ffffff;
+  color: #4e8cff;
+  font-size: 2rem;
+  cursor: pointer;
+  background-color: #ffffff; /* Color de fondo */
+  border: none; /* Sin bordes */
+  border-radius: 50%; /* Hace el botón redondeado */
+  justify-content: center; /* Centrado horizontal */
+  align-items: center; /* Centrado vertical */
+  padding: 7px;
+  /*
   display: block !important;
   position: fixed;
   top: 1.5rem;
@@ -294,17 +295,15 @@ nav {
   color: blue;
   font-size: 2rem;
   cursor: pointer;
+  */
 }
-
-
-
 .nav-links {
   position: fixed;
   top: 0;
   right: -250px;
   height: 100%;
   width: 250px;
-  background: var(--accent);
+  background: #226df7;
   flex-direction: column;
   padding: 2rem 1rem;
   display: flex;
@@ -316,36 +315,36 @@ nav {
   -ms-transition: right 0.3s ease-in-out;
   -o-transition: right 0.3s ease-in-out;
 }
-
-
-
-
-  nav a {
-    padding: 0.5rem 0;
-  }
-
-
-
+nav a {
+  padding: 0.5rem 0;
+}
 .menu-toggle {
-  display: block !important;
+  display: flex;
   position: fixed;
   top: 1.5rem;
   right: 1.5rem;
   z-index: 9999;
-  background: none;
-  border: none;
-  color: blue;
+  background: #ffffff;
+  color: #4e8cff;
   font-size: 2rem;
-  cursor: pointer;  
+  cursor: pointer;
+  background-color: #ffffff; /* Color de fondo */
+  border: none; /* Sin bordes */
+  border-radius: 50%; /* Hace el botón redondeado */
+  justify-content: center; /* Centrado horizontal */
+  align-items: center; /* Centrado vertical */
+  padding: 7px;
 }
-
+.menu-toggle:hover {
+  background-color: #ebf3bc; /* Cambia el color al pasar el ratón */
+}
 .nav-links {
   position: fixed;
   top: 0;
   right: -250px;
   height: 100%;
   width: 250px;
-  background: var(--accent);
+  background: #226df7;
   flex-direction: column;
   padding: 2rem 1rem;
   display: flex;
@@ -357,11 +356,9 @@ nav {
   -ms-transition: right 0.3s ease-in-out;
   -o-transition: right 0.3s ease-in-out;
 }
-
 .nav-links a:hover {
-  color: #3300ff;           /* nuevo color al hacer hover, por ejemplo dorado */
+  color: #7fe3f1;           /* nuevo color al hacer hover, por ejemplo dorado */
 }
-
 .hero-slogan {
   font-family: 'Poppins', sans-serif;
   font-size: clamp(1.75rem, 5vw, 3rem);
@@ -374,12 +371,10 @@ nav {
   margin: 0 auto;
   padding: 2rem 1rem;
 }
-
 .nav-links.active {
   right: 0;
   color: blue;
 }
-
 .hero-wrapper {
   display: flex;
   flex-direction: row;
@@ -388,16 +383,13 @@ nav {
   gap: 2rem;
   flex-wrap: wrap;
 }
-
 .hero-text {
   flex: 1 1 60%;
 }
-
 .hero-image {
   flex: 1 1 35%;
   max-width: 400px;
 }
-
 .hero-image img {
   width: 100%;
   height: auto;
@@ -414,12 +406,10 @@ nav {
     flex-direction: column;
     text-align: center;
   }
-
   .hero-image {
     max-width: 100%;
   }
 }
-
 .testimonial-card {
   background: #d4f0fa;
   border-radius: 12px;
@@ -439,17 +429,14 @@ nav {
   -ms-border-radius: 12px;
   -o-border-radius: 12px;
 }
-
 .testimonial-card:hover {
   box-shadow: 0 6px 20px rgba(0,0,0,0.12);
 }
-
 .testimonial-header {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
-
 .testimonial-avatar {
   width: 48px;
   height: 48px;
@@ -458,7 +445,6 @@ nav {
   margin: 10px;
   padding: 10px;
 }
-
 .testimonial-avatar-circle {
   width: 48px;
   height: 48px;
@@ -470,26 +456,22 @@ nav {
   color: white;
   text-align: center
 }
-
 .testimonial-info h4 {
   margin: 0;
   font-size: 1rem;
   color: #111;
 }
-
 .testimonial-role {
   margin: 0;
   font-size: 0.875rem;
   color: #666;
 }
-
 .testimonial-text {
   font-size: 1rem;
   line-height: 1.6;
   color: #333;
   margin: 0;
 }
-
 .testimonial-card:hover {
   box-shadow: 0 6px 20px rgba(0,0,0,0.12);
   background-color: #f9f9f9;
